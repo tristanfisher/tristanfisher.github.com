@@ -1,0 +1,182 @@
+body, h1, h2, h3, h4, h5, h6, a, p, ul, ol, li, img, em, strong, pre, code, form {
+ padding: 0;
+ margin: 0;
+}
+
+html{
+    /*keep img at 100% instead of tile*/
+    height:100%;
+    width:100%;
+}
+
+body{
+    color:#EEE;
+    font: 1em BitstreamVeraSansMonoRoman,Helvetica, Verdana, sans-serif;
+    line-height:1.1em;
+    background:#111 url(../img/satEarth-resized.jpg);
+    min-width:1024px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index:1;
+}
+
+#noScriptBanner{
+    background-color:#FF0;
+    background:rgb(255,255,0);
+    color:#000;
+    margin-left:50%;
+    font: 1em Verdana, sans-serif;
+    text-align:right;
+}
+#pageWrap{
+    margin:0 auto;
+    position:relative;
+    height:100%;
+    max-width:1000px;
+}
+
+#bg img{
+    position:fixed;
+    top:0;
+    left:0;
+    min-height:100%;
+    min-width:200px;
+    width:100%;
+    height:auto;
+}
+
+.ninja{
+    display:none;
+}
+
+.gridOverlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: url(../img/grid.png);
+    z-index:2;
+}
+
+#title{
+    font-size:2em;
+    line-height:2em;
+    margin-top:10px;
+    overflow:hidden;
+    min-width:2000px;
+}
+
+#bodyWrap{
+    clear:both;
+    margin-top:1em;
+    min-width:2000px;
+}
+
+#leftNav{
+    position:relative;
+    display:inline-block;
+    float:left;
+    background-color:#487904;
+    background:rgba(40,90,0,0.8);
+    color:#9df; 
+    opacity:1;
+    white-space: normal;
+    border-radius: 2px;
+    border-style:solid;
+    border-color:#9DF;
+    border-width: 2px;
+    -moz-border-radius: 2px;
+    margin:0 1em;
+    margin-bottom:1em;
+    padding:.5em .75em;
+    z-index:100;
+    height:50%;
+    font-size:.75em; /*~12px*/
+}
+
+#leftNav .link{
+    margin:1em 0px;
+}
+#leftNav .sublink{
+    margin:0 1em;
+}
+
+#leftNav .link abbr{
+    text-decoration:underline;
+}
+
+#leftNav a{
+    color:#9df;
+    text-decoration:none;    
+}
+#leftNav a.active{
+    background-color:#9df;
+    background:rgba(90,240,255,0.7);
+    color:#284904;
+    color:rgba(40,90,0,0.8);
+}
+
+a{
+    color:#FFF;
+}
+
+li{
+	list-style:none;
+	margin-left:0;
+	padding-left:.45em;
+}
+
+#content{
+    position:relative;
+    display:inline-block;
+    float:left;
+    background-color:#7b0178;
+    background:rgba(255,0,255,0.5);
+    color:#9DF; 
+    opacity:0.95;
+    white-space: normal;
+    border-radius: 2px;
+    border-style:solid;
+    border-color:#99DDFF;
+    border-width: 2px;
+    -moz-border-radius: 2px;
+    padding:.5em .5em 1em .5em;
+    overflow:auto;
+    resize:both;
+    margin-bottom:.5em;
+    width:auto;
+    height:auto;
+    font-size:1em; 
+}
+
+#content pre{
+    color:#EEE;
+    line-height:1.4em;
+    word-spacing:.1em;
+    
+}
+
+#codeDesc{
+    position:relative;
+    display:inline-block;
+    float:left;
+    background-color:#7b0178;
+    background:rgba(255,0,255,0.5);
+    color:#9DF; 
+    opacity:0.95;
+    white-space: normal;
+    margin:0 1em .5em 1em;
+    border-radius: 2px;
+    border-style:solid;
+    border-color:#99DDFF;
+    border-width: 2px;
+    -moz-border-radius: 2px;
+    padding:.5em;
+}
+
+input.noHighlight:focus {
+    outline-width: 0;
+}

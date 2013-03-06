@@ -1,0 +1,63 @@
+/*
+ \(+_+)/ fooooonts 
+ @font-face syntax : EOT, WOFF, TTF, SVG 
+if IE flips out, use this instead:
+@font-face {
+font-family: 'myFont';
+src: local('myFont'), src: url('../fonts/myFont.eot'); 
+src: url('../fonts/myFont.eot?iefix') format('eot'), 
+url('../fonts/myFont.woff') format('woff'), 
+url('../fonts/myFont.ttf') format('truetype'),
+url('../fonts/myFont.svg#svgFontName') format('svg');
+}
+*/
+@font-face {
+    font-family: 'DeutschGothicNormal';
+    src: url('../fonts/deutsch-webfont.eot');
+    src: url('../fonts/deutsch-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/deutsch-webfont.woff') format('woff'),
+         url('../fonts/deutsch-webfont.ttf') format('truetype'),
+         url('../fonts/deutsch-webfont.svg#DeutschGothicNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Caudex';
+    src: url('../fonts/caudex-webfont.eot');
+    src: url('../fonts/caudex-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/caudex-webfont.woff') format('woff'),
+         url('../fonts/caudex-webfont.ttf') format('truetype'),
+         url('../fonts/caudex-webfont.svg#CaudexRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Caudex';
+    src: url('../fonts/caudex-bold-webfont.eot');
+    src: url('../fonts/caudex-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/caudex-bold-webfont.woff') format('woff'),
+         url('../fonts/caudex-bold-webfont.ttf') format('truetype'),
+         url('../fonts/caudex-bold-webfont.svg#CaudexBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BitstreamVeraSansMonoRoman';
+    src: url('../fonts/veramono-webfont.eot');
+    src: url('../fonts/veramono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/veramono-webfont.woff') format('woff'),
+         url('../fonts/veramono-webfont.ttf') format('truetype'),
+         url('../fonts/veramono-webfont.svg#BitstreamVeraSansMonoRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BitstreamVeraSansMono';
+    src: url('../fonts/veramono-bold-webfont.eot');
+    src: url('../fonts/veramono-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/veramono-bold-webfont.woff') format('woff'),
+         url('../fonts/veramono-bold-webfont.ttf') format('truetype'),
+         url('../fonts/veramono-bold-webfont.svg#BitstreamVeraSansMonoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
