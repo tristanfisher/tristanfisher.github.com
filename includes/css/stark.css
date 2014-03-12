@@ -12,20 +12,20 @@ body,html{
 
 @font-face {
 font-family: 'mutlu';
-src: local('mutlu'), src: url('../font/mutlu/mutlu.eot');
-src: url('../font/mutlu/mutlu.eot?iefix') format('eot'),
-url('../font/mutlu/mutlu.woff') format('woff'),
-url('../font/mutlu/mutlu.ttf') format('truetype'),
-url('../font/mutlu/mutlu.svg#svgFontName') format('svg');
+src: local('mutlu'), src: url('../fonts/mutlu/mutlu.eot');
+src: url('../fonts/mutlu/mutlu.eot?iefix') format('eot'),
+url('../fonts/mutlu/mutlu.woff') format('woff'),
+url('../fonts/mutlu/mutlu.ttf') format('truetype'),
+url('../fonts/mutlu/mutlu.svg#svgFontName') format('svg');
 }
 
 @font-face {
 font-family: 'plainblack';
-src: local('plainblack'), src: url('../font/plainblack/plainblack.eot');
-src: url('../font/plainblack/plainblack.eot?iefix') format('eot'),
-url('../font/plainblack/plainblack.woff') format('woff'),
-url('../font/plainblack/plainblack.ttf') format('truetype'),
-url('../font/plainblack/plainblack.svg#svgFontName') format('svg');
+src: local('plainblack'), src: url('../fonts/plainblack/plainblack.eot');
+src: url('../fonts/plainblack/plainblack.eot?iefix') format('eot'),
+url('../fonts/plainblack/plainblack.woff') format('woff'),
+url('../fonts/plainblack/plainblack.ttf') format('truetype'),
+url('../fonts/plainblack/plainblack.svg#svgFontName') format('svg');
 }
 
 #content{
