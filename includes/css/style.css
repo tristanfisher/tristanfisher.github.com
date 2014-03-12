@@ -81,7 +81,7 @@ body{
     float:left;
     background-color:#487904;
     background:rgba(40,90,0,0.8);
-    color:#9df; 
+    color:#9df;
     opacity:1;
     white-space: normal;
     border-radius: 2px;
@@ -110,7 +110,7 @@ body{
 
 #leftNav a{
     color:#9df;
-    text-decoration:none;    
+    text-decoration:none;
 }
 #leftNav a.active{
     background-color:#9df;
@@ -135,7 +135,7 @@ li{
     float:left;
     background-color:#7b0178;
     background:rgba(255,0,255,0.5);
-    color:#9DF; 
+    color:#9DF;
     opacity:0.95;
     white-space: normal;
     border-radius: 2px;
@@ -144,19 +144,19 @@ li{
     border-width: 2px;
     -moz-border-radius: 2px;
     padding:.5em .5em 1em .5em;
-    overflow:auto;
+    overflow:hide;
     resize:both;
     margin-bottom:.5em;
     width:auto;
     height:auto;
-    font-size:1em; 
+    font-size:1em;
 }
 
 #content pre{
     color:#EEE;
     line-height:1.4em;
     word-spacing:.1em;
-    
+
 }
 
 #codeDesc{
@@ -165,7 +165,7 @@ li{
     float:left;
     background-color:#7b0178;
     background:rgba(255,0,255,0.5);
-    color:#9DF; 
+    color:#9DF;
     opacity:0.95;
     white-space: normal;
     margin:0 1em .5em 1em;
