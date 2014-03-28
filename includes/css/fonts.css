@@ -1,12 +1,12 @@
 /*
- \(+_+)/ fooooonts 
- @font-face syntax : EOT, WOFF, TTF, SVG 
+ \(+_+)/ fooooonts
+ @font-face syntax : EOT, WOFF, TTF, SVG
 if IE flips out, use this instead:
 @font-face {
 font-family: 'myFont';
-src: local('myFont'), src: url('../fonts/myFont.eot'); 
-src: url('../fonts/myFont.eot?iefix') format('eot'), 
-url('../fonts/myFont.woff') format('woff'), 
+src: local('myFont'), src: url('../fonts/myFont.eot');
+src: url('../fonts/myFont.eot?iefix') format('eot'),
+url('../fonts/myFont.woff') format('woff'),
 url('../fonts/myFont.ttf') format('truetype'),
 url('../fonts/myFont.svg#svgFontName') format('svg');
 }
