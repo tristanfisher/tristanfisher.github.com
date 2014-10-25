@@ -19,10 +19,6 @@ a:link, a:visited{
     color:#DDD;
 }
 
-div#top_line{
-	
-}
-
 div#header{
 	margin-top:1%;
 }
@@ -38,15 +34,4 @@ div.topic_header{
 
 div.body_text{
 	margin-left:5%;
-}
-
-div.:nth-child(odd){
-	background-color: #444;
-}
-div.:nth-child(even){
-	background-color: #222;
-}
-
-div.body_text:last-chid{
-	//center 
-}
+	}
