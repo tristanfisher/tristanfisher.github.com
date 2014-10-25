@@ -9,9 +9,6 @@ body,html{
     width:100%;
     background:#444;
     color:#DDD;
-}
-
-div#content{
 	font: 1em Consolas, monaco, monospace;
 }
 
