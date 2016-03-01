@@ -1,0 +1,143 @@
+/* unix programming environment uses Avant Garde or something very similar */
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #FDFDFD;
+    color: #444;
+    margin:0;
+    padding:0;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+margin-top: 0;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: normal;
+color: #333;
+}
+
+/* unix-blue is #2575E4 or 049DDC */
+
+.blog-masthead {
+background-color: #049DDC;
+-webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+.row {}
+
+.blog-header {
+    padding: 10px 0 10px 0;
+}
+.blog-title {
+    margin: 40px 0 0 0;
+    font-family: "Century Gothic", CenturyGothic, sans-serif; /*futura doesn't have a bold weight*/
+    font-size:50px;
+    font-weight: normal;
+    line-height:0px;
+    letter-spacing: -2px;
+    text-align:center;
+    color: #049DDC;
+    display:block;
+}
+
+#title_border {
+    border: solid 4px #049DDC;
+    margin:0 auto;
+    padding:0;
+    width: 50%;
+    min-width:450px;
+    max-width:800px;
+    display:block;
+}
+
+.blog-title #the {
+    position: relative;
+    top:-22px;
+    font-size:30px;
+    letter-spacing: 1px;
+    line-height:0;
+    margin-bottom: 20px;
+}
+
+.blog-title #the span {
+    background-color: #fff;
+    padding: 0 5px 0 5px;
+}
+
+.blog-title #bold_title {
+    font-weight:bold;
+    font-size:75px;
+    letter-spacing: -5px;
+    line-height:15px;
+    margin:0 0 20px 0;
+}
+
+.blog-title #second_line{
+    position:relative;
+    top: 3px;
+    padding:0;
+    letter-spacing:-4px;
+}
+.blog-title #last_line{
+    padding:0;
+    letter-spacing:-3px;
+    margin-bottom:40px;
+    font-size:55px;
+}
+
+.blog-description {
+    margin:0 auto;
+    padding:0;
+    width: 50%;
+    min-width:450px;
+    max-width:800px;
+    display:block;
+    position:relative;
+    top:20px;
+    right:25px;
+    font-size: 20px;
+    color: #049DDC;
+    font-family: "Century Gothic", CenturyGothic, sans-serif;
+    text-align:right;
+}
+
+/* content */
+.blog-main {
+    margin-top:50px;
+    font-size: 18px;
+    line-height: 1.5;
+    min-height: 100px;
+}
+
+.blog-post {
+    margin-bottom: 60px;
+    margin-left: 15px;
+    color:#5a5a5a;
+    padding:20px;
+    border-left: 3px #049DDC solid;
+}
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.blog-footer {
+    padding: 20px 0;
+    color: #999;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+.blog-footer .pull-right {
+    margin-right:10px;
+}
